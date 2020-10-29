@@ -49,3 +49,13 @@ img {
   .main {
     margin-bottom: 30px; /* Add a bottom margin to avoid content overlay */
   }
+
+  /* Add a color to the active/current link */
+.navbar a.active {
+  background-color: #009a9a;
+  color: white;
+} 
+
+.font {
+  font-family: Arial, Helvetica, sans-serif;
+}
