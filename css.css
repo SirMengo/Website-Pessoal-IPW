@@ -1,5 +1,4 @@
 /* Foto redonda */
-
 img {
     border-radius: 50%;
   }
@@ -8,9 +7,9 @@ img {
 .navbar {
     overflow: hidden;
     background-color: #008080;
-    position: fixed; /* Set the navbar to fixed position */
-    top: 0; /* Position the navbar at the top of the page */
-    width: 100%; /* Full width */
+    position: fixed; 
+    top: 0;
+    width: 100%;
   }
   
   /* Links dentro da nav bar*/
@@ -32,25 +31,24 @@ img {
   
   /* Conteudo */
   .main {
-    margin-top: 0px; /* Add a top margin to avoid content overlay */
-  }
-  How To Create a Fixed Bottom Menu
-  To create a fixed bottom menu, use position:fixed and bottom:0:
-  
-  Example
-  /* navigation bar */
-  .navbar {
-    position: fixed; /* Set the navbar to fixed position */
-    bottom: 0; /* Position the navbar at the bottom of the page */
-    width: 100%; /* Full width */
-  }
-  
-  /* Main content */
-  .main {
-    margin-bottom: 30px; /* Add a bottom margin to avoid content overlay */
+    margin-top: 0px; 
   }
 
-  /* Add a color to the active/current link */
+  
+  
+  /* nav bar */
+  .navbar {
+    position: fixed; 
+    bottom: 93%; 
+    width: 100%; 
+  }
+  
+  /* main content */
+  .main {
+    margin-bottom: 30px; 
+  }
+
+  /* Add cor a link */
 .navbar a.active {
   background-color: #009a9a;
   color: white;
